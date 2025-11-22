@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDUVERSE - Home</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png" />
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css">
+    <!-- link googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Caveat:wght@400..700&family=Libertinus+Keyboard&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font  -->
+      <!-- icons cdn -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="assets/logo.png" alt="logo" />
+          <span class="name">Eduverse </span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a>
+            <ul class="dropdown">
+              <li><a href="html.html">HTML</a></li>
+              <li><a href="css.html">CSS</a></li>
+              <li><a href="js.html">JavaScript</a></li>
+            </ul>
+           </li>
+           <li><a href="about.html">About US</a></li>
+           <li><a href="contact.html">Contact US</a></li>
+        </ul>
+      </nav>
+      <hr>
+
+    </header>
+
+    <main>
+      <section class="featured-courses">
+  <h2>Featured Courses</h2>
+  <p>Start your web development journey with our structured courses</p>
+  <br><br><br>
+  <div class="course-grid">
+    <div class="course-card">
+      <img src="assets/html-course.png" alt="html" class="course-img">
+      <h3>HTML Fundamentals</h3>
+      <p class="description">Master the building blocks of the web. Learn semantic HTML, forms, accessibility, and modern HTML5 features.</p>
+      <ul class="meta">
+        <li><strong>Duration:</strong> 6 hours</li>
+        <li><strong>Difficulty:</strong> Beginner</li>
+      </ul>
+      <a href="html.html" class="view-course">View Course</a>
+    </div>
+
+    <div class="course-card">
+      <img src="assets/css-course.png" alt="css" class="course-img">
+      <h3>CSS Mastery</h3>
+      <p class="description">Create beautiful, responsive designs. Learn Flexbox, Grid, animations, and modern CSS techniques.</p>
+      <ul class="meta">
+        <li><strong>Duration:</strong> 6 hours</li>
+        <li><strong>Difficulty:</strong> Beginner</li>
+      </ul>
+      <a href="css.html" class="view-course">View Course</a>
+    </div>
+
+    <div class="course-card">
+      <img src="assets/js-course.png" alt="JavaScript" class="course-img">
+      <h3>JavaScript Essentials</h3>
+      <p class="description">Bring your websites to life. Learn programming fundamentals, DOM manipulation, and modern ES6+ features.</p>
+      <ul class="meta">
+        <li><strong>Duration:</strong> 6 hours</li>
+        <li><strong>Difficulty:</strong> Intermediate</li>
+      </ul>
+      <a href="js.html" class="view-course">View Course</a>
+    </div>
+  </div>
+</section>
+<section class="faq-section">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-list">
+    <div class="faq-item">
+      <h3>Who are these courses for?</h3>
+      <p>These courses are designed for beginners and intermediate learners who want to build strong web development fundamentals.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Do I need any prior experience?</h3>
+      <p>No prior coding experience is required. Each course starts with the basics and builds up gradually.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Are the courses free?</h3>
+      <p>Yes! All featured courses on Eduverse are completely free and accessible to everyone.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Will I get a certificate?</h3>
+      <p>Yes, you’ll receive a downloadable certificate upon completing each course and passing the final quiz.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can I learn at my own pace?</h3>
+      <p>Absolutely. All courses are self-paced, so you can learn whenever it suits you best.</p>
+    </div>
+  </div>
+</section>
+<section class="resource-library" id="resources">
+  <header class="resource-header">
+    <h2>Resource Library</h2>
+    <p>Access our collection of free coding tutorials and templates to accelerate your growth.</p>
+  </header>
+
+  <!-- Filter Buttons -->
+  <div class="resource-filters">
+    <button class="filter-btn">All</button>
+    <button class="filter-btn">Freebies</button>
+    <button class="filter-btn">Premium</button>
+    <button class="filter-btn">HTML</button>
+    <button class="filter-btn">CSS</button>
+    <button class="filter-btn">JavaScript</button>
+    <button class="filter-btn">Python</button>
+    <button class="filter-btn">Web Development</button>
+  </div>
+
+  <!-- Resource Cards -->
+  <div class="resource-grid">
+    <!-- HTML -->
+    <div class="resource-card">
+      <h3>W3Schools HTML Tutorial</h3>
+      <p>Learn the basics of HTML with examples and exercises.</p>
+      <div class="resource-actions">
+        <a href="https://www.w3schools.com/html/" target="_blank" class="view-btn">View</a>
+        <a href="starter-html-template.html" download class="download-btn">Download</a>
+      </div>
+    </div>
+
+    <!-- CSS -->
+    <div class="resource-card">
+      <h3>W3Schools CSS Tutorial</h3>
+      <p>Learn how to style web pages with CSS.</p>
+      <div class="resource-actions">
+        <a href="https://www.w3schools.com/css/" target="_blank" class="view-btn">View</a>
+        <a href="starter-css-template.css" download class="download-btn">Download</a>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <div class="resource-card">
+      <h3>W3Schools JavaScript Tutorial</h3>
+      <p>Learn how to make web pages interactive with JavaScript.</p>
+      <div class="resource-actions">
+        <a href="https://www.w3schools.com/js/" target="_blank" class="view-btn">View</a>
+        <a href="starter-js-template.js" download class="download-btn">Download</a>
+      </div>
+    </div>
+
+    <!-- Python -->
+    <div class="resource-card">
+      <h3>W3Schools Python Tutorial</h3>
+      <p>Learn Python programming with examples and exercises.</p>
+      <div class="resource-actions">
+        <a href="https://www.w3schools.com/python/" target="_blank" class="view-btn">View</a>
+        <a href="starter-python-template.py" download class="download-btn">Download</a>
+      </div>
+    </div>
+
+    <!-- Web Development -->
+    <div class="resource-card">
+      <h3>W3Schools Web Development Overview</h3>
+      <p>Explore tutorials covering HTML, CSS, JavaScript, and more.</p>
+      <div class="resource-actions">
+        <a href="https://www.w3schools.com/" target="_blank" class="view-btn">View</a>
+        <a href="starter-web-template.zip" download class="download-btn">Download</a>
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+
+    <footer class="footer">
+    <div class="footer-content">
+      <div class="logo2">
+        <a href="index.html"><img src="assets/logo.png" alt="logo" />
+          <span class="name2">Eduverse </span></a>
+        <!-- this para below should be under logo  -->
+        <p class="footer-para">
+          Empowering the next generation of web developers through free,
+          accessible education.
+        </p>
+      
+      <!-- social links should be below the above para and logo  -->
+
+      <div class="social-links2">
+        <a style="color: white;" href="https://www.instagram.com/_.saurabhh08/" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+        <a style="color: white;" href="https://www.linkedin.com/in/saurabh-sharmaa8/" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+        <a style="color: white;" href="https://github.com/developer-saurabhh" target="_blank"><i
+            class="fab fa-github"></i></a>
+      </div>
+      </div>
+      <div class="footer-column">
+
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms of Service</a></li>
+          <li><a href="#cookies">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <!-- this para should appear at the last as a seprate line with a border top which appear like a line under the quick links and all above items -->
+      <p class="footer-bottom">&copy; 2025 Eduverse | All Rights Reserved </p>
+
+    </div>
+
+  </footer>
+  </body>
+</html>

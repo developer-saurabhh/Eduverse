@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDUVERSE - Home</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png" />
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css">
+    <!-- link googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Caveat:wght@400..700&family=Libertinus+Keyboard&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icon  -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="assets/logo.png" alt="logo" />
+          <span class="name">Eduverse </span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a>
+            <ul class="dropdown">
+              <li><a href="html.html">HTML</a></li>
+              <li><a href="css.html">CSS</a></li>
+              <li><a href="js.html">JavaScript</a></li>
+            </ul>
+           </li>
+           <li><a href="about.html">About US</a></li>
+           <li><a href="contact.html">Contact US</a></li>
+        </ul>
+      </nav>
+      <hr>
+
+    </header>
+    <section id="contact" class="contact-section">
+  <div class="container contact-inner">
+
+    <!-- left: contact form -->
+    <div class="contact-card">
+      <h2>Get in touch</h2>
+      <p class="muted">Have a question, want to contribute, or suggest a course? Send a message — we’ll reply as soon as we can.</p>
+
+      <!-- OPTION A: Form that uses Formspree (recommended for no-backend) -->
+      <!-- Replace YOUR_FORMSPREE_ENDPOINT with the endpoint you get from Formspree -->
+      <form class="contact-form" method="POST" action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="_replyto" type="email" placeholder="you@example.com" required>
+
+        <label for="subject">Subject</label>
+        <input id="subject" name="subject" type="text" placeholder="Short subject" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+
+        <button type="submit" class="btn primary">Send message</button>
+      </form>
+
+      <!-- OPTION B (alternative): Mailto fallback
+           If you prefer mailto (opens user email client), uncomment below and remove/replace the form above.
+      <a class="mailto-fallback" href="mailto:hello@eduverse.example?subject=Contact%20from%20site">Or email us directly: hello@eduverse.example</a>
+      -->
+    </div>
+
+    <!-- right: contact info -->
+    <aside class="contact-info">
+      <h3>Contact info</h3>
+      <p class="muted">Prefer direct contact? Use one of these.</p>
+
+      <ul class="info-list">
+        <li><strong>Email</strong><br><a href="mailto:eduuverses@gmail.com">hello@eduverse.example</a></li>
+        <li><strong>WhatsApp</strong><br><a href="https://wa.me/919548275350" target="_blank" rel="noopener">+91 9548275350</a></li>
+        <li><strong>Location</strong><br>Online / Remote</li>
+      </ul>
+
+      <div class="contact-socials">
+        <a class="social" href="https://github.com/developer-saurabhh" target="_blank" aria-label="GitHub">GitHub</a>
+        <a class="social" href="https://www.instagram.com/_.saurabhh08/" target="_blank" aria-label="Instagram">Instagram</a>
+        <a class="social" href="https://wa.me/919548275350" target="_blank" aria-label="WhatsApp">WhatsApp</a>
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+    <footer class="footer">
+    <div class="footer-content">
+      <div class="logo2">
+        <a href="index.html"><img src="assets/logo.png" alt="logo" />
+          <span class="name2">Eduverse </span></a>
+        <!-- this para below should be under logo  -->
+        <p class="footer-para">
+          Empowering the next generation of web developers through free,
+          accessible education.
+        </p>
+      
+      <!-- social links should be below the above para and logo  -->
+
+      <div class="social-links2">
+        <a style="color: white;" href="https://www.instagram.com/_.saurabhh08/" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+        <a style="color: white;" href="https://www.linkedin.com/in/saurabh-sharmaa8/" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+        <a style="color: white;" href="https://github.com/developer-saurabhh" target="_blank"><i
+            class="fab fa-github"></i></a>
+      </div>
+      </div>
+      <div class="footer-column">
+
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms of Service</a></li>
+          <li><a href="#cookies">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <!-- this para should appear at the last as a seprate line with a border top which appear like a line under the quick links and all above items -->
+      <p class="footer-bottom">&copy; 2025 Eduverse | All Rights Reserved </p>
+
+    </div>
+
+  </footer>
+  </body>
+</html>
